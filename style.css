@@ -101,6 +101,7 @@ nav {
 }
 
 .slogon-container {
+  /* border: 2px solid red; */
   width: 1300px;
   padding-top:4%;
   display: flex;
@@ -597,7 +598,9 @@ footer {
 }
 
 @media screen and (min-width: 550px)  and (max-width: 600px){
-
+  nav{
+    border: 2px solid yellow;
+  }
   .slogon-container {
     width: 80%;
     padding-top:38%;
@@ -628,7 +631,9 @@ footer {
     /*width: 90%;*/
     margin: 0 auto;
   } 
-
+  nav{
+    border: 2px solid blue;
+  }
    .slogon-container {
     width: 80%;
     padding-top:10%;
@@ -656,7 +661,7 @@ footer {
 @media screen and (max-width: 550px) {
 
   nav{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     background-color: #181818;
     height: 6vh;
     font-size: 2vh;
@@ -699,15 +704,17 @@ footer {
 }
 
 .slogon-container {
-  width: 430px;
+  width: auto;
   padding-top:18%;
   /* border: 2px solid red; */
 }
 
 .slogon-p1 {
   /* border: 2px solid red; */
-  width: 420px;
-  font-size: 0.6rem;
+  /* width: 420px; */
+  width: auto;
+  /* font-size: 0.6rem; */
+  /* font-size: ; */
 }
 
 .home-search-button {
