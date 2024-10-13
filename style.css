@@ -598,9 +598,9 @@ footer {
 }
 
 @media screen and (min-width: 550px)  and (max-width: 600px){
-  nav{
+  /* nav{
     border: 2px solid yellow;
-  }
+  } */
   .slogon-container {
     width: 80%;
     padding-top:38%;
@@ -631,9 +631,9 @@ footer {
     /*width: 90%;*/
     margin: 0 auto;
   } 
-  nav{
+  /* nav{
     border: 2px solid blue;
-  }
+  } */
    .slogon-container {
     width: 80%;
     padding-top:10%;
@@ -661,7 +661,7 @@ footer {
 @media screen and (max-width: 550px) {
 
   nav{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: #181818;
     height: 6vh;
     font-size: 2vh;
